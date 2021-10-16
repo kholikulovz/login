@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./login.html">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="navbar">
+                    <i class="fab fa-uniregistry fa-3x logo"></i>
+                    <h1 class="title">You successfully Logged</h1>
+                    <button class="button" id="logout">Log Out</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container">
+            <ul class="cards__menu">
+                <template id="template">
+                    <li class="cards__item">
+                        <img class="cards__img" src="http://picsum.photos/100" alt="">
+                        <p class="first__name">John</p>
+                        <p class="last__name">doe</p>
+                        <a class="cards__email">michael.lawson@reqres.in</a>
+                    </li>
+                </template>
+            </ul>
+        </div>
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
